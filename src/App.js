@@ -48,7 +48,7 @@ class App extends Component {
       <div className="container">
         <img className="img" src={require("./assets/cronometro.png")} />
         <a className="timer">{this.state.numero.toFixed(1)}</a>
-        <a className="texto">Cronômeto</a>
+        <a className="texto">Cronômetro</a>
         <div className="areaBtn">
           <a className="botao" onClick={this.go}>
             {this.state.botao}
